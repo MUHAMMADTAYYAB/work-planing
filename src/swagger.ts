@@ -1,4 +1,4 @@
-const host = "https://work-planning-app.herokuapp.com";//"localhost:3003";
+const host = "work-planning-app.herokuapp.com";//"localhost:3003";
 export = {
   swagger: "2.0",
   info: {
@@ -12,7 +12,7 @@ export = {
   },
   host: host,
   basePath: "/api/v1",
-  schemes: ["http", "https"],
+  schemes: ["https","http"],
   consumes: ["application/json"],
   produces: ["application/json"],
   securityDefinitions: {
