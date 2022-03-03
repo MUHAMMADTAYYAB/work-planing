@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js",
+    "start": "node index.js",
     "test": "mocha -r ts-node/register src/test/**/*test.ts",
     "clean": "rm -rf ./build",
     "config": " cp -rf ./config ./build/",
