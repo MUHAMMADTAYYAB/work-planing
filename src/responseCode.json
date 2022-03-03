@@ -1,0 +1,13 @@
+{
+    "description" : "Response codes for handled exceptions",
+    "module" : {
+        "name" : "API Gateway",
+        "module base code" : 1000,
+        "codes" : [
+            {"code" :   400, "description" : "DB Requested resource not found"},
+            {"code" :   701, "description" : "query params missing"},
+            {"code" :   702, "description" : "id is empty"}
+
+        ]
+    }
+}
