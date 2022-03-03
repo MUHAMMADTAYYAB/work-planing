@@ -1,4 +1,4 @@
-const host = "localhost:3003";
+const host = "https://work-planning-app.herokuapp.com";//"localhost:3003";
 export = {
   swagger: "2.0",
   info: {
